@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Como Arremessar no Basquete 🏀</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&family=Open+Sans:wght@300;400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<header>
+    <h1>Como Arremessar no Basquete 🏀</h1>
+</header>
+
+<nav>
+    <ul>
+        <li><a href="#home">Início</a></li>
+        <li><a href="#tips">Dicas</a></li>
+        <li><a href="#history">História do Basquete</a></li>
+        <li><a href="#game">Jogo de Arremesso</a></li>
+        <li><a href="#contact">Contato</a></li>
+    </ul>
+</nav>
+
+<div id="tips" class="container">
+    <h2>Dicas para Melhorar seu Arremesso</h2>
+    <p>Para aprimorar o arremesso, concentre-se em:</p>
+    <ul>
+        <li><strong>Controle do Corpo:</strong> Mantenha o equilíbrio e estabilidade, com os pés firmes.</li>
+        <li><strong>Prática de Repetição:</strong> A prática constante é fundamental para a consistência.</li>
+        <li><strong>Foco no Movimento:</strong> Mantenha a mente no gesto técnico e no movimento fluido.</li>
+    </ul>
+</div>
+
+<div id="history" class="container">
+    <h2>História do Basquete</h2>
+    <p>O basquete foi inventado em 1891 por James Naismith. Desde então, o esporte cresceu e se tornou um dos mais populares do mundo, com ligas internacionais como a NBA e campeonatos mundiais.</p>
+</div>
+
+<div id="game" class="game-container">
+    <h2>Jogo de Arremesso de Basquete 🏀</h2>
+    <canvas id="gameCanvas" width="600" height="400"></canvas>
+    <div class="controls">
+        <label>Força: <input type="range" id="force" min="1" max="30" value="15"></label>
+        <label>Ângulo: <input type="range" id="angle" min="0" max="90" value="45"></label>
+        <button class="start-button" onclick="throwBall()">Arremessar!</button>
+    </div>
+</div>
+
+<footer>
+    <p>&copy; 2024 Basquete Brasil - Todos os direitos reservados. 🏀</p>
+</footer>
+
+<script src="script.js"></script>
+
+</body>
+</html>
